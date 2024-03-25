@@ -8,32 +8,29 @@ In our work, we introduce an advanced acceleration technique that leverages the 
 <img src=assets/main.png />
 </p>
 
+## Stable Diffusion
 
-## Sampling
-
-### 1) Stable Diffusion
-
-#### Requirements
+### Requirements
 ```
 pip install torch transformers accelerate
 pip install diffusers==0.26.3
 ```
 
-#### Sampling
-To enjoy FRDiff in Stable Diffusion (SDXL), run following script.
+### Sampling
+To enjoy FRDiff on Stable Diffusion (SDXL), run following script.
 ```
 cd Stable-Diffusion
 python sample.py --num_steps 50 --interval 2 --prompt "a photo of an astronaut on a moon"
 ```
 
+## DiT
 
-### 2) DiT
-#### Requirements
+### Requirements
 ```
 conda env create --file DiT/environment.yml
 ```
 
-#### AutoFR Training
+### AutoFR Training & Sampling
 To run AutoFR training, use following script.
 ```
 cd DiT
@@ -43,6 +40,7 @@ python sample.py --lr 5e-3 --wgt 1e-3
 The trained keyframeset and generated sample results will be saved in directory.  
 
 To use Uniform Keyframeset, uncomment line 137-139 in DiT/model.py
+
 
 ## Citation
 ```
