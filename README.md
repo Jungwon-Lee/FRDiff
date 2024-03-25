@@ -1,4 +1,4 @@
-# FRDiff : Feature Reuse for Universal Training-free Acceleration of Diffusion Models [[arXiv]](https://arxiv.org/abs/2312.03517)
+# FRDiff : Feature Reuse for Universal Training-free Acceleration of Diffusion Models [[Arxiv]](https://arxiv.org/abs/2312.03517) [[Project]](https://jungwon-lee.github.io/Project_FRDiff) [[Colab]](https://colab.research.google.com/drive/1nG15sCcIS-XaZKDvGugBvg4eKF3qftoA#scrollTo=zvA_neljsaaU)
 ### [Junhyuk So*](https://github.com/junhyukso), [Jungwon Lee*](https://github.com/Jungwon-Lee) and Eunhyeok Park
 
 This repository is official code of [FRDiff : Feature Reuse for Universal Training-free Acceleration of Diffusion Models](https://arxiv.org/abs/2312.03517)
