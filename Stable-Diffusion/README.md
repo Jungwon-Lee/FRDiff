@@ -1,4 +1,6 @@
-# FRDiff : Feature Reuse for Universal Training-free Acceleration of Diffusion Models
+# FRDiff with Stable Diffusion
+
+This code is for FRdiff with Stable Diffusion (SDXL).
 
 ## Requirements
 ```
