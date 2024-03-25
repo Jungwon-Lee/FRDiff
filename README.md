@@ -55,9 +55,9 @@ To use Uniform Keyframeset, uncomment line 137-139 in DiT/model.py
 ## Citation
 ```
 @article{so2023frdiff,
-  title={FRDiff: Feature Reuse for Exquisite Zero-shot Acceleration of Diffusion Models},
-  author={So, Junhyuk and Lee, Jungwon and Park, Eunhyeok},
-  journal={arXiv preprint arXiv:2312.03517},
-  year={2023}
+         title={FRDiff: Feature Reuse for Exquisite Zero-shot Acceleration of Diffusion Models},
+         author={So, Junhyuk and Lee, Jungwon and Park, Eunhyeok},
+         journal={arXiv preprint arXiv:2312.03517},
+         year={2023}
 }
 ```
