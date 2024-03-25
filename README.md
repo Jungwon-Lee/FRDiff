@@ -9,6 +9,40 @@ In our work, we introduce an advanced acceleration technique that leverages the 
 </p>
 
 
+## Sampling
+
+### 1) Stable Diffusion
+
+#### Requirements
+```
+pip install torch transformers accelerate
+pip install diffusers==0.26.3
+```
+
+#### Sampling
+```
+cd Stable-Diffusion
+python sample.py --num_steps 50 --interval 2 --prompt "a photo of an astronaut on a moon"
+```
+
+
+### 2) DiT
+#### Requirements
+To install requirements, use following script.
+```
+conda env create --file DiT/environment.yml
+```
+
+## AutoFR Training
+To run AutoFR training, use following script.
+```
+cd DiT
+python sample.py --lr 5e-3 --wgt 1e-3
+```
+
+The trained keyframeset and generated sample results will be saved in directory.  
+
+To use Uniform Keyframeset, uncomment line 137-139 in DiT/model.py
 
 ## Citation
 ```
@@ -19,3 +53,5 @@ In our work, we introduce an advanced acceleration technique that leverages the 
   year={2023}
 }
 ```
+
+### Acke
