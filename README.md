@@ -33,7 +33,7 @@ python sample.py --num_steps 50 --interval 2 --prompt "a photo of an astronaut o
 conda env create --file DiT/environment.yml
 ```
 
-## AutoFR Training
+#### AutoFR Training
 To run AutoFR training, use following script.
 ```
 cd DiT
