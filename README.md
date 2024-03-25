@@ -1,4 +1,4 @@
-# FRDiff : Feature Reuse for Universal Training-free Acceleration of Diffusion Models [[Arxiv]](https://arxiv.org/abs/2312.03517)
+# FRDiff : Feature Reuse for Universal Training-free Acceleration of Diffusion Models [[arXiv]](https://arxiv.org/abs/2312.03517)
 ### [Junhyuk So*](https://github.com/junhyukso), [Jungwon Lee*](https://github.com/Jungwon-Lee) and Eunhyeok Park
 
 
