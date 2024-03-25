@@ -1,6 +1,8 @@
 # FRDiff : Feature Reuse for Universal Training-free Acceleration of Diffusion Models [[arXiv]](https://arxiv.org/abs/2312.03517)
 ### [Junhyuk So*](https://github.com/junhyukso), [Jungwon Lee*](https://github.com/Jungwon-Lee) and Eunhyeok Park
 
+This repository is official code of [FRDiff : Feature Reuse for Universal Training-free Acceleration of Diffusion Models](https://arxiv.org/abs/2312.03517)
+
 
 ## Overview 
 In our work, we introduce an advanced acceleration technique that leverages the ___temporal redundancy___ inherent in diffusion models. Reusing feature maps with high temporal similarity opens up a new opportunity to save computation resources without compromising output quality. To realize the practical benefits of this intuition, we conduct an extensive analysis and propose a novel method, ___FRDiff___. ___FRDiff___ is designed to harness the advantages of both reduced NFE and feature reuse, achieving a Pareto frontier that balances fidelity and latency trade-offs in various generative tasks. 
