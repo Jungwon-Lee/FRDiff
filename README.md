@@ -8,6 +8,8 @@ In our work, we introduce an advanced acceleration technique that leverages the 
 <img src=assets/main.png />
 </p>
 
+<br/>
+
 ## Stable Diffusion
 
 ### Requirements
@@ -41,7 +43,8 @@ The trained keyframeset and generated sample results will be saved in directory.
 
 To use Uniform Keyframeset, uncomment line 137-139 in DiT/model.py
 
-
+<br/>
+       
 ## Citation
 ```
 @article{so2023frdiff,
