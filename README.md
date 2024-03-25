@@ -8,6 +8,12 @@ In our work, we introduce an advanced acceleration technique that leverages the 
 <img src=assets/main.png />
 </p>
 
+
+## Experiments
+<p align="center">
+<img src=assets/result.png />
+</p>
+
 <br/>
 
 ## Stable Diffusion
