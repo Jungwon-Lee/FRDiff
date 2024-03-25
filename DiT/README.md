@@ -1,3 +1,4 @@
+# FRDiff with DiT
 
 In this codebase, we include AutoFR training code for DiT.
 
