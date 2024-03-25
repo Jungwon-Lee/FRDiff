@@ -20,6 +20,7 @@ pip install diffusers==0.26.3
 ```
 
 #### Sampling
+To enjoy FRDiff in Stable Diffusion (SDXL), run following script.
 ```
 cd Stable-Diffusion
 python sample.py --num_steps 50 --interval 2 --prompt "a photo of an astronaut on a moon"
@@ -28,7 +29,6 @@ python sample.py --num_steps 50 --interval 2 --prompt "a photo of an astronaut o
 
 ### 2) DiT
 #### Requirements
-To install requirements, use following script.
 ```
 conda env create --file DiT/environment.yml
 ```
@@ -53,5 +53,3 @@ To use Uniform Keyframeset, uncomment line 137-139 in DiT/model.py
   year={2023}
 }
 ```
-
-### Acke
